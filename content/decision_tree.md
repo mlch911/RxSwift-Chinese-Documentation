@@ -70,6 +70,7 @@
   * 只取头几个元素直到另一个 `Observable` 发出一个元素：[takeUntil](decision_tree/takeUntil.md)
 * 周期性的对 `Observable` 抽样：[sample](decision_tree/sample.md)
 * 发出那些元素，这些元素产生后的特定的时间内，没有新的元素产生：[debounce](decision_tree/debounce.md)
+* 发出那些元素，这些元素产生后的特定的时间内，新的元素不会发出，特定时间后，发出最后一个元素：[throttle](decision_tree/throttle.md)
 * 直到元素的值发生变化，才发出新的元素：[distinctUntilChanged](decision_tree/distinctUntilChanged.md)
   * 并提供元素是否相等的判定函数：[distinctUntilChanged](decision_tree/distinctUntilChanged.md)
 * 在开始发出元素时，延时后进行订阅：[delaySubscription](decision_tree/delaySubscription.md)
